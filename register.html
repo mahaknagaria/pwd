@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+<body>
+  <form action="thanks.html" method="GET">
+
+    <table width="800" align="centre" border="1">
+
+        <tr>
+            <td colspan="2" align="centre"><h1>Registration form</h1></td>
+        </tr>
+        <tr>
+            <td><label for="fname">Enter your First Name:</label></td>
+            <td><input type="text" id="fname" name="fname" required></td>
+        </tr>
+        <tr>
+            <td><label for="lname">Enter your Last name:</label></td>
+            <td><input type="text" id="lame" name="lname"></td>
+        </tr>
+        <tr>
+            <td><label for="psw">Choose your password:</label></td>
+            <td><input type="password" id="psw" name="password" required></td>
+        </tr>
+        <tr>
+            <td>Choose your Gender:</label></td>
+            <td>
+                <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" id="others" name="gender" value="others">
+            <label for="others">Others</label>
+        </td>
+        </tr>
+        <tr>
+            <td>Tick your Qualifications</td>
+            <td>
+                <input type="checkbox" id="qual1" name="qual1" value="school">
+                <label for="qualifications">School Student</label>
+                <br>
+                <input type="checkbox" id="qual2" name="qual2" value="college">
+                <label for="qualifications">College Student</label>
+                <br>
+                <input type="checkbox" id="qual3" name="qual3" value="Graduate">
+                <label for="qualifications">Graduate</label>
+                <br>
+                <input type="checkbox" id="qual4" name="qual4" value="post graduate">
+                <label for="qualifications">Post Graduate</label>
+        </tr>
+<tr>
+    <td>
+        <label for="country">Select your Country</label>
+       <td>
+           <select name="country" id="country">
+               <option value="america">America</option>
+               <option value="Argentina">Aregentina</option>
+               <option value="Iraq">Iraq</option>
+               <option value="india">India</option>
+               <option value="virginia">Virginia</option>
+           </select>
+       </td>
+    </td>
+</tr>
+<tr>
+    <td><label for="address">Enter address</label></td>
+    <td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+</tr>
+<tr>
+    <td><label for="dob">Enter Date of Birth</label></td>
+    <td><input type="date" name="dob" id="dob"></input></td>
+</tr>
+<tr>
+    <td><label for="photo">Upload Your Photo</label></td>
+    <td><input type="file" name="photo" id="photo"></input></td>
+</tr>
+        <tr>
+            <td><input type="submit"></td>
+            <td><input type="reset"></td>
+        </tr>
+    </table>
+  </form> 
+</body>
+</html>
